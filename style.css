@@ -1,0 +1,152 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf9f5;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a8989b;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 250px;
+  border-radius: 20px;
+  border: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color:black;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #1e1e1e;
+}
+
+.hero p{
+  color: #1e1e1e;
+}
+.hero button {
+  background-color: #a8989b;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #897b7e;
+}
+
+.container h2{
+  color: #584f51;
+}
+/* Card Styles */
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #897b7ea8;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  height: 250px;
+  width: 250px;
+}
+
+.card img {
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Genres Section */
+.genre-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.genre {
+  background-color: #897b7e;;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.genre:hover {
+  background-color: #4f4547;
+}
+
+/* Footer */
+footer {
+  background-color: #a8989b;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color:#554c4e;;
+}
